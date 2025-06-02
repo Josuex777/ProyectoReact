@@ -1,0 +1,71 @@
+.Contenedor {
+  width: 100%;
+  margin: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: wheat;
+}
+
+.oscuro {
+  padding: 15px;
+  background-color: #c1ffe9;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.menuimg {
+  width: 40%;
+  border: #000000 solid 0.5px;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: grid;
+}
+.menuimg:hover {
+  transform: scale(1.1) perspective(250px) rotateY(-5deg) translateY(-5%)
+    translateZ(0);
+  box-shadow: 10px 10px 20px rgb(44, 41, 41);
+  border-radius: 20px;
+  transition: 1s;
+  translate: -45px;
+  opacity: 0.7;
+}
+aside img {
+  display: grid;
+  margin: 0 auto;
+}
+#main-col {
+  float: left;
+  width: 65%;
+  padding-right: 10px;
+  text-align: justify;
+}
+#lateral {
+  float: right;
+  width: 35%;
+  padding-left: 10px;
+  margin-right: 0;
+  text-align: justify;
+}
+@media (max-width: 760px) {
+  #main-col,
+  #lateral {
+    float: none;
+    text-align: justify !important;
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .menuimg {
+    width: 85%;
+  }
+  aside img {
+    width: 80%;
+  }
+}
+.encabezado {
+  background-color: #000000 !important;
+}
+.accordion-item h2 {
+  background-color: wheat !important;
+}

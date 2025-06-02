@@ -1,0 +1,10 @@
+.alturaimg {
+  width: 100%;
+  height: 500px !important;
+}
+@media (max-width: 760px) {
+  .alturaimg {
+    width: 100%;
+    height: 280px !important;
+  }
+}

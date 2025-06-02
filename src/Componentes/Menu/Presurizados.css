@@ -1,0 +1,76 @@
+.Contenedor {
+  width: 100%;
+  margin: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: wheat;
+}
+.Enlace {
+  cursor: pointer;
+  background-color: #c1ffe9;
+}
+.Enlace:hover {
+  background-color: bisque;
+  opacity: 0.8;
+}
+.oscuro {
+  padding: 15px;
+  background-color: #c1ffe9;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+#main-col {
+  float: left;
+  width: 65%;
+  padding-right: 10px;
+  text-align: justify;
+}
+#lateral {
+  float: right;
+  width: 35%;
+  padding-left: 10px;
+  margin-right: 0;
+  text-align: justify;
+}
+@media (max-width: 760px) {
+  #main-col,
+  #lateral {
+    float: none;
+    text-align: justify !important;
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .imagenesx {
+    flex-direction: column;
+  }
+}
+.menuimg {
+  width: 200px;
+  border: #000000 solid 0.5px;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: grid;
+}
+.menuimg:hover {
+  transform: scale(1.1) perspective(250px) rotateX(5deg) translateY(-5%)
+    translateZ(0) !important;
+  box-shadow: 10px 10px 50px rgb(0, 0, 0);
+  border-radius: 20px;
+  transition: 1s;
+}
+.imagenesx {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  gap: 10px;
+}
+aside img {
+  display: grid;
+  margin: 0 auto;
+  width: 350px;
+  border: #000000 solid 0.5px;
+  margin: auto;
+  border-radius: 20px;
+}

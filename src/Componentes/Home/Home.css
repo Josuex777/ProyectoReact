@@ -1,0 +1,62 @@
+section img {
+  width: 350px;
+  border: #000000 solid 0.5px;
+  margin: auto;
+  border-radius: 20px;
+}
+section img:hover {
+  transform: scale(1.1) perspective(250px) rotateX(5deg) translateY(-5%)
+    translateZ(0);
+  box-shadow: 10px 10px 50px rgb(0, 0, 0);
+  border-radius: 20px;
+  transition: 1s;
+}
+.Home {
+  background-color: #d9bda2;
+  font-size: 15px;
+  font-family: "Merriweather";
+}
+#dropdown-basic-button {
+  background-color: #94f8d5;
+  color: #000000;
+  border-color: #000000;
+}
+
+#dropdown-basic-button:hover {
+  background-color: #000000;
+  color: #94f8d5;
+  border-color: #94f8d5;
+}
+
+.contenedor {
+  width: 70%;
+  margin: auto;
+  color: #000000;
+  font-family: "Merriweather";
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#cajas {
+  margin-top: 20px;
+}
+#cajas .caja {
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+}
+@media (max-width: 760px) {
+  #cajas .caja {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  section img {
+    width: 75%;
+  }
+}

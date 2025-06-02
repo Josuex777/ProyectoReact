@@ -1,0 +1,52 @@
+.colornav {
+  background-color: #94f8d5 !important;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-family: "Merriweather";
+}
+.dropdown-menu {
+  background-color: #f5e1ce !important;
+}
+.nav-link {
+  border-radius: 10px;
+}
+.nav-link:hover {
+  background-color: #000000;
+  color: #94f8d5 !important;
+  border-radius: 10px;
+  opacity: 0.7;
+  transition: 0.5s;
+  transform: translateY(-5px);
+}
+.dropdown-item {
+  background-color: #f5e1ce !important;
+  text-align: center;
+}
+.dropdown-item:hover {
+  background-color: #94f8d5 !important;
+  transform: translateY(-5px);
+}
+.cabeza {
+  display: flex !important;
+  justify-content: space-around !important;
+  gap: 10px;
+}
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sticky-top {
+  opacity: 95%;
+}
+.enlaces {
+  justify-content: center !important;
+}
+@media (min-width: 768px) {
+  .cabeza {
+    display: flex !important;
+    justify-content: space-around !important;
+    gap: 10px;
+  }
+}

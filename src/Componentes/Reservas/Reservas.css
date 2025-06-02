@@ -1,0 +1,54 @@
+Form {
+  background-color: antiquewhite;
+  font-family: "Merriweather";
+  padding: 20px 25px;
+}
+Button:hover {
+  transform: scale(1.02);
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+#main-col {
+  float: left;
+  width: 65%;
+  padding-right: 10px;
+  text-align: justify;
+  justify-content: center;
+}
+#lateral {
+  float: right;
+  width: 35%;
+  padding-left: 10px;
+  margin-right: 0;
+  text-align: justify;
+  font-size: 13px;
+}
+@media (max-width: 760px) {
+  #main-col,
+  #lateral {
+    float: none;
+    text-align: center !important;
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .menuimg {
+    width: 85%;
+  }
+  aside img {
+    width: 80%;
+  }
+}
+.Contenedor {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: wheat;
+  padding: 15px 20px;
+}
+.botones {
+  padding: 15px;
+}
